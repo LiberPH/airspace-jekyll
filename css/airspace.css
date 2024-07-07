@@ -231,44 +231,29 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/Insect.JPG");
-  background-position: 50% 94px;
-  width: 100%;
-  opacity: 0.8;
-  display: block;
-  position: relative;
-  overflow: visible;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   padding: 100px 0;
-  opacity: 0.8;
+}
+#feature .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#feature .block p {
+  color: #7B7B7B;
+  padding-top: 20px;
+}
+#feature .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#feature .section-title {
+  margin-bottom: 0px;
+}
+#feature .section-title p {
+  padding-top: 20px;
 }
 
-#feature h2 {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-#feature p {
-  color: #38393a;
-  margin-bottom: 20px;
-}
-#feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
-}
+
 /*--
 	content Start
 --*/
